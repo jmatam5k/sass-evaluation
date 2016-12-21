@@ -1,0 +1,26 @@
+/*#principal{
+	background-color: $color;
+	height: 100vh;
+	ul{
+		float: right;	
+		li{
+			display: inline-block;
+			a{
+				text-transform: uppercase;
+				color: $link-color;
+				padding: $pad-links;
+			}
+		}
+	}
+}
+@mixin c4irculo($width){
+	width: $width;
+	height: $width;
+	border-radius: 50%;
+}
+article{
+	img{
+		@include circulo(600px);
+	}
+}
+*
