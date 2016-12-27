@@ -23,4 +23,37 @@ article{
 		@include circulo(600px);
 	}
 }
-*
+*/
+body{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.pilarIzq{ float:left;  margin:0 20px 10px 0}
+
+header{
+	.menu{
+		color: $goscuro;
+	}
+	.btn-red{
+		color: $rojo;
+	}
+}
+
+.li-r{
+	border-bottom:1px solid #ea4748;
+	padding-bottom:47px;
+	position:relative;
+	margin-bottom:-50px;
+}
+
+
+.li-r2>span{
+	width:auto;
+	border-bottom:4px solid #ea4748;
+	padding-bottom:4px;
+}
+.txt-R{
+	color: $rojo;
+}
+.masColumnas{
+	margin-top: $top;
+}
